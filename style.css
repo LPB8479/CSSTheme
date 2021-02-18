@@ -4,6 +4,9 @@
 .inner-MADQqc { padding-top: 4px; }
 .base-gE7OpD { /* typing and slowmode stuff */
     top: -24px; /* height is 24px */
+    background-color: var(--background-primary);
+}
+.jumpToPresentBar-G1R9s6 .barBase-1c2Rfb {
 }
 .scrollableContainer-2NUZem {
     border-radius: 0px;
@@ -47,7 +50,6 @@
 }
 
 /* Compact Status Menu */
-
 .status-1fhblQ, .description-2L932D {
     display: none;
 }
