@@ -2,7 +2,7 @@
     "name": "CSSTheme",
     "version": "1",
     "license": "MIT",
-    "theme": "[name of the .css file].css",
+    "theme": "style.css",
     "author": "LPB",
     "description": "A theme made from a bunch of snippets I found on the Powercord Discord server"
 }
