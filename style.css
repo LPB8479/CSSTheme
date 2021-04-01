@@ -6,8 +6,6 @@
     top: -24px; /* height is 24px */
     background-color: var(--background-primary);
 }
-.jumpToPresentBar-G1R9s6 .barBase-1c2Rfb {
-}
 .scrollableContainer-2NUZem {
     border-radius: 0px;
     min-height: 53px;
@@ -104,22 +102,10 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 }
 
 /* Make search bar look like basic toolbar icon */
-.search-36MZv- {order: -1;}
-.searchBar-3dMhjb {
-    width: 28px;
-    transition: width 0.6s ease-in-out;
-    color:#fff;
-    background: none;
-}
-.focused-31_ccS .searchBar-3dMhjb,
-.open-6_Y_aH .searchBar-3dMhjb,
-.searchBar-3dMhjb:hover {
-    width: 240px;
-    background: var(--background-tertiary);
-}
-.icon-3cZ1F_{height: 24px;width: 24px;color:var(--interactive-normal);}
-.iconContainer-O4O2CN{bottom: 3px;}
-.search-36MZv-{margin-left: 0px;}
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
 
 /* Move theme toggler to top of powercord settings */
 .side-8zPYf6 > div {order: -1;}
