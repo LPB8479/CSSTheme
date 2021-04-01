@@ -113,6 +113,10 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .side-8zPYf6 > div[data-item-id="pc-general"] ~ div {order: 2;}
 .side-8zPYf6 > div[data-item-id="theme-toggler"] {order: 1 !important;}
 
+/* Narrow server list */
+.guilds-1SWlCJ, .listItem-2P_4kh { width: 60px; }
+.expandedFolderBackground-2sPsd- { left: 6px; } /* width is 48px, (60-48) / 2 = 6 */
+
 /* Compact plugins list */
 .powercord-product {
     padding: 10px 0 !important;
