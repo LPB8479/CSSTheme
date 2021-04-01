@@ -217,6 +217,8 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 *[data-item-id='DiscordNitro'], *[data-item-id='NitroServerBoost'], *[data-item-id='LibraryInventory'], *[data-item-id='Billing'], .button-38aScr[aria-label='Send a gift'], .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv + .header-2RyJ0Y, .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv {
   display: none !important;
 }
+/* Remove "Create Invite" in channel menu */
+[aria-label='Create Invite'] > .actionIcon-PgcMM2 {display: none;}
 
 /* Hide stickers */
 .wrapper-2a6GCs .assetWrapper-3GNt0z[style] {
