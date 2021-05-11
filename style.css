@@ -271,11 +271,29 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 
 /* Two-column emoji menu */
 .emojiUploader-1f0pVx,
-div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
-    display: none
-}
-
+div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {display: none}
 .emojiRow-zIc7ZX {
     display: inline-flex;
     margin-right: 50px
+}
+
+/* Revert 2021 UX Update */
+/* Reactions */
+.reaction-1hd86g,.reaction-1hd86g:hover{
+    background-color:var(--background-modifier-accent);
+    border: none;
+    border-radius:.25rem;
+}
+.reaction-1hd86g.reactionMe-wv5HKu{background-color:rgba(114,137,218,.3)}
+/* Mentions */
+.wrapper-3WhCwL,.theme-dark .mentioned-xhSam7 .mention, .theme-light .mentioned-xhSam7 .mention{
+  color:#7289da !important;
+  background:rgba(114,137,218,.1) !important;
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 500;
+}
+.wrapper-3WhCwL:hover,.theme-dark .mentioned-xhSam7 .mention:hover, .theme-light .mentioned-xhSam7 .mention:hover{
+  color:#fff !important;
+  background-color:#7289da !important;
 }
