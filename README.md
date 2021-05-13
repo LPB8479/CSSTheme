@@ -11,5 +11,4 @@ Freeplay#5676<br>
 Nyria#3863<br>
 snapper#0001<br>
 exist#1065<br>
-MulverineX#0001<br>
-asportnoy#6969
+MulverineX#0001
