@@ -1,4 +1,4 @@
-/* Bottom bar */
+/* Simplistic Bottom bar */
 .channelTextArea-rNsIhG { margin-bottom: 0; }
 .form-2fGMdU { padding: 0; }
 .inner-MADQqc { padding-top: 4px; }
@@ -30,7 +30,6 @@
   opacity: 1;
   pointer-events: all;
 }
-
 /* Compact Status Menu */
 .status-1fhblQ, .description-2L932D, .separator-2I32lJ {display: none;}
 .mask-1qbNWk.icon-1IxfJ2, [id=status-picker-game-activity] > .statusItem-33LqPf > svg {
@@ -52,13 +51,45 @@
       width: 20px;
       height: 20px;
 }
-
 [id=status-picker-online], [id=status-picker-idle], [id=status-picker-dnd], [id=status-picker-invisible], [id=status-picker-game-activity] {
     height: 32px; 
     width: 40px;
 }
 .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {grid-template-columns: 40px 40px 40px 40px;}
 [id=status-picker-custom-status] {grid-column: 2 / span 3;}
+/* Compact Voice Channel and Game Activity Status */
+.wrapper-24pKcD .container-1giJp5, .actionButtons-14eAc_, .subtext-3CDbHg, .ping-2NgC8E, .flex-1xMQg5 > [aria-label='Disconnect'], .flex-1xMQg5 > [aria-label='Noise Suppression powered by Krisp'], .statusWithPopout-3ZfFol > .contents-18-Yxp, .panel-24C3ux .body-GmmuPm, .body-GmmuPm > .actions-aUdUfC, .gameIconWrapper-1YByCI, .panel-24C3ux, .info-WdNIDE {transition: all 0.5s ease-in-out;}
+.wrapper-24pKcD .container-1giJp5{
+  height: 10px;
+  pointer-events: none;
+  padding-top: 4px;
+  padding-bottom: 9px;
+}
+.actionButtons-14eAc_, .subtext-3CDbHg, .flex-1xMQg5 > [aria-label='Disconnect'], .flex-1xMQg5 > [aria-label='Noise Suppression powered by Krisp'], .body-GmmuPm > .actions-aUdUfC, .gameIconWrapper-1YByCI {opacity: 0;}
+.statusWithPopout-3ZfFol > .contents-18-Yxp {vertical-align: middle;}
+.wrapper-24pKcD:hover .container-1giJp5 {
+  height: 70px;
+  opacity: 1;
+  pointer-events: all;
+  background-color: var(--background-primary);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.wrapper-24pKcD:hover .container-1giJp5, .wrapper-24pKcD:hover [aria-label='Disconnect'], .wrapper-24pKcD:hover [aria-label='Noise Suppression powered by Krisp'], .wrapper-24pKcD:hover .actionButtons-14eAc_, .wrapper-24pKcD:hover .subtext-3CDbHg, .wrapper-24pKcD:hover .ping-2NgC8E {opacity: 1;}
+.wrapper-24pKcD:hover .statusWithPopout-3ZfFol > .contents-18-Yxp{color: var(--text-positive);}
+.panel-24C3ux .body-GmmuPm {
+  height: 10px;
+  pointer-events: none;
+}
+.panel-24C3ux {background-color: var(--channels-default);}
+.info-WdNIDE {margin-left: -10px;}
+.panel-24C3ux:hover .info-WdNIDE {margin-left: 8px;}
+.panel-24C3ux:hover .body-GmmuPm, .panel-24C3ux:hover .actions-aUdUfC, .panel-24C3ux:hover .gameIconWrapper-1YByCI{
+  height: 34.6667px;
+  opacity: 1;
+  pointer-events: all;
+}
+.panel-24C3ux:hover {background-color: var(--background-primary);}
 
 /* Smooth guild banner transition */
 .bannerImage-1jOskm:before
@@ -211,7 +242,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .header-23xsNx{user-select:none;}
 
 /* Hide nitro shit */
-*[data-item-id='DiscordNitro'], *[data-item-id='NitroServerBoost'], *[data-item-id='LibraryInventory'], *[data-item-id='Billing'], .button-38aScr[aria-label='Send a gift'], .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv + .header-2RyJ0Y, #private-channels-1, .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv {display: none !important;}
+*[data-item-id='DiscordNitro'], *[data-item-id='NitroServerBoost'], *[data-item-id='LibraryInventory'], *[data-item-id='Billing'], .button-38aScr[aria-label='Send a gift'], .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv + .header-2RyJ0Y, #private-channels-1, .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv, #private-channels-0, #private-channels-1, #private-channels-2 {display: none !important;}
 
 /* Remove "Create Invite" in channel menu */
 [aria-label='Create Invite'] > .actionIcon-PgcMM2 {display: none}
@@ -276,3 +307,6 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
     display: inline-flex;
     margin-right: 50px
 }
+
+/*Remove blue tab thing*/
+:root {--focus-primary: transparent;}
