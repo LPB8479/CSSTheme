@@ -242,7 +242,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 .header-23xsNx{user-select:none;}
 
 /* Hide nitro shit */
-*[data-item-id='DiscordNitro'], *[data-item-id='NitroServerBoost'], *[data-item-id='LibraryInventory'], *[data-item-id='Billing'], .button-38aScr[aria-label='Send a gift'], .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv + .header-2RyJ0Y, #private-channels-1, .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv, #private-channels-0, #private-channels-1, #private-channels-2 {display: none !important;}
+*[data-item-id='DiscordNitro'], *[data-item-id='NitroServerBoost'], *[data-item-id='LibraryInventory'], *[data-item-id='Billing'], .button-38aScr[aria-label='Send a gift'], .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv + .header-2RyJ0Y, #private-channels-1, .item-PXvHYJ[data-item-id="Connections"] + .separator-gCa7yv, #private-channels-1, #private-channels-2 {display: none !important;}
 
 /* Remove "Create Invite" in channel menu */
 [aria-label='Create Invite'] > .actionIcon-PgcMM2 {display: none}
