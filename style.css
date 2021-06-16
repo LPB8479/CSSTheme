@@ -17,7 +17,7 @@
     max-width: 40px;
     transition: max-width 1s;
 }
-.buttons-3JBrkn:hover {max-width: 1800px}
+.buttons-3JBrkn:active {max-width: 1800px}
 /* fly-in voice chat buttons */
 .container-3baos1 .noWrap-3jynv6 {
   width: 0px;
@@ -25,7 +25,7 @@
   pointer-events: none;
   transition: all .5s ease-in-out;
 }
-.container-3baos1:hover .noWrap-3jynv6 {
+.container-3baos1:active .noWrap-3jynv6 {
   width: 100px;
   opacity: 1;
   pointer-events: all;
