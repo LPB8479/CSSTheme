@@ -17,7 +17,7 @@
     max-width: 40px;
     transition: max-width 1s;
 }
-.buttons-3JBrkn:active {max-width: 1800px}
+.buttons-3JBrkn:hover {max-width: 1800px}
 /* fly-in voice chat buttons */
 .container-3baos1 .noWrap-3jynv6 {
   width: 0px;
@@ -25,7 +25,7 @@
   pointer-events: none;
   transition: all .5s ease-in-out;
 }
-.container-3baos1:active .noWrap-3jynv6 {
+.container-3baos1:hover .noWrap-3jynv6 {
   width: 100px;
   opacity: 1;
   pointer-events: all;
@@ -67,7 +67,7 @@
 }
 .actionButtons-14eAc_, .subtext-3CDbHg, .flex-1xMQg5 > [aria-label='Disconnect'], .flex-1xMQg5 > [aria-label='Noise Suppression powered by Krisp'], .body-GmmuPm > .actions-aUdUfC, .gameIconWrapper-1YByCI {opacity: 0;}
 .statusWithPopout-3ZfFol > .contents-18-Yxp {vertical-align: middle;}
-.wrapper-24pKcD:hover .container-1giJp5 {
+.wrapper-24pKcD:active .container-1giJp5 {
   height: 70px;
   opacity: 1;
   pointer-events: all;
@@ -75,21 +75,21 @@
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.wrapper-24pKcD:hover .container-1giJp5, .wrapper-24pKcD:hover [aria-label='Disconnect'], .wrapper-24pKcD:hover [aria-label='Noise Suppression powered by Krisp'], .wrapper-24pKcD:hover .actionButtons-14eAc_, .wrapper-24pKcD:hover .subtext-3CDbHg, .wrapper-24pKcD:hover .ping-2NgC8E {opacity: 1;}
-.wrapper-24pKcD:hover .statusWithPopout-3ZfFol > .contents-18-Yxp{color: var(--text-positive);}
+.wrapper-24pKcD:active .container-1giJp5, .wrapper-24pKcD:active [aria-label='Disconnect'], .wrapper-24pKcD:active [aria-label='Noise Suppression powered by Krisp'], .wrapper-24pKcD:active .actionButtons-14eAc_, .wrapper-24pKcD:active .subtext-3CDbHg, .wrapper-24pKcD:active .ping-2NgC8E {opacity: 1;}
+.wrapper-24pKcD:active .statusWithPopout-3ZfFol > .contents-18-Yxp{color: var(--text-positive);}
 .panel-24C3ux .body-GmmuPm {
   height: 10px;
   pointer-events: none;
 }
 .panel-24C3ux {background-color: var(--channels-default);}
 .info-WdNIDE {margin-left: -10px;}
-.panel-24C3ux:hover .info-WdNIDE {margin-left: 8px;}
-.panel-24C3ux:hover .body-GmmuPm, .panel-24C3ux:hover .actions-aUdUfC, .panel-24C3ux:hover .gameIconWrapper-1YByCI{
+.panel-24C3ux:active .info-WdNIDE {margin-left: 8px;}
+.panel-24C3ux:active .body-GmmuPm, .panel-24C3ux:active .actions-aUdUfC, .panel-24C3ux:active .gameIconWrapper-1YByCI{
   height: 34.6667px;
   opacity: 1;
   pointer-events: all;
 }
-.panel-24C3ux:hover {background-color: var(--background-primary);}
+.panel-24C3ux:active {background-color: var(--background-primary);}
 
 /* Smooth guild banner transition */
 .bannerImage-1jOskm:before
