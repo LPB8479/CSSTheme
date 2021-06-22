@@ -1,3 +1,3 @@
-# Simplistic Bottom Bar
+# Compact Bottom Bar
 
-A compact text bar and user panel theme for Powercord
+A simplistic text bar and user panel theme for Powercord
